@@ -1,0 +1,37 @@
+{
+  "enterpriseNameCn": "上海艾力斯医药科技股份有限公司",
+  "enterpriseNameEn": "Shanghai Allist Pharmaceuticals Co., Ltd",
+  "meetingAddress": "",
+  "planDateStr": "2024-11-25",
+  "waterMarkEnable": true,
+  "waterMarkContent": "c草草草草",
+  "meetingSignInList": [
+    {
+      "index": 1,
+      "name": "dgjhgjsa",
+      "hospital": "我是医院机构1",
+      "dept": "预防保健科"
+    },
+    {
+      "index": 2,
+      "name": "12212",
+      "hospital": "我是医院机构1",
+      "dept": "预防保健科"
+    },
+    {
+      "index": 3,
+      "name": "123的撒是",
+      "hospital": "我是医院机构1",
+      "dept": "预防保健科"
+    },
+    {
+      "index": 4,
+      "name": "的撒",
+      "hospital": "我是医院机构1",
+      "dept": "预防保健科"
+    }
+  ],
+  "topic": "c草草草草",
+  "logoUrl": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_0/config/2024-12-09/43d4b3e3cd8807a1a369902598bfb7ec-bvg0sfcp.jpg",
+  "planDate": 1732464000000
+}

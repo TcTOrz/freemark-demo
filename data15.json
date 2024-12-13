@@ -1,0 +1,22 @@
+{
+  "logoUrl": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/pre_0/config/2024-11-12/1731378398169ez2o3vc0.png",
+  "topic": "会议主题111111",
+  "meetingAddress": "会议地点11222",
+  "meetingDate": "2015-12-01 12:00:00",
+  "meetingSignInList": [
+    {
+      "index": "1",
+      "name": "John",
+      "hospital": "医院啊啊啊啊科",
+      "dept": "科室啊实打实打算",
+      "signIn": ""
+    },
+    {
+      "index": "2",
+      "name": "John2",
+      "hospital": "医院啊啊啊啊",
+      "dept": "科室啊实打实打算",
+      "signIn": ""
+    }
+  ]
+}
