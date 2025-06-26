@@ -1,8 +1,8 @@
 /*
  * @Author: Li Jian
  * @Date: 2024-12-06 10:45:50
- * @LastEditTime: 2024-12-09 14:42:23
- * @LastEditors: Li Jian
+ * @LastEditTime: 2025-06-09 15:06:43
+ * @LastEditors: lijian lijian@100doc.com.cn
  */
 const path = require('path')
 const fs = require('fs')
@@ -23,6 +23,8 @@ const data13 = require('./data13.json')
 const data14 = require('./data14.json')
 const data15 = require('./data15.json')
 const data16 = require('./data16.json')
+const data17 = require('./data17.json')
+const dataVerificationBusinessList = require('./data-verificationBusinessList.json')
 var fm = new Freemarker({
   viewRoot: path.join(__dirname, './template'),
   options: {
@@ -32,20 +34,24 @@ var fm = new Freemarker({
 
 // Single template file
 // MeetingDetailTemplate.ftl
-fm.render('MeetingSignIn.ftl', data16, function (err, html, output) {
-  console.log('🚀 ~ file: index.js:14 ~ output:', output)
-  if (err) {
-    console.log('🚀 ~ file: index.js:17 ~ err:', err)
-    return
-  }
-  fs.writeFile(
-    path.join(__dirname, './out/MeetingSignIn.html'),
-    html,
-    'utf8',
-    (err) => {
-      if (err) {
-        console.log(err)
-      }
+fm.render(
+  'OfflineVisitRecordTemplate.ftl',
+  data17,
+  function (err, html, output) {
+    console.log('🚀 ~ file: index.js:14 ~ output:', output)
+    if (err) {
+      console.log('🚀 ~ file: index.js:17 ~ err:', err)
+      return
     }
-  )
-})
+    fs.writeFile(
+      path.join(__dirname, './out/OfflineVisitRecordTemplate.html'),
+      html,
+      'utf8',
+      (err) => {
+        if (err) {
+          console.log(err)
+        }
+      }
+    )
+  }
+)

@@ -1,37 +1,311 @@
 {
-  "enterpriseNameCn": "上海艾力斯医药科技股份有限公司",
-  "enterpriseNameEn": "Shanghai Allist Pharmaceuticals Co., Ltd",
-  "meetingAddress": "",
-  "planDateStr": "2024-11-25",
+  "meetingAddress": "新疆医科大学第一附属医院",
+  "planDateStr": "2025-06-13",
   "waterMarkEnable": true,
-  "waterMarkContent": "c草草草草",
+  "waterMarkContent": "null",
   "meetingSignInList": [
     {
       "index": 1,
-      "name": "dgjhgjsa",
-      "hospital": "我是医院机构1",
-      "dept": "预防保健科"
+      "name": "马龙",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "胸外科"
     },
     {
       "index": 2,
-      "name": "12212",
-      "hospital": "我是医院机构1",
-      "dept": "预防保健科"
+      "name": "井晓亮",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "胸外科"
     },
     {
       "index": 3,
-      "name": "123的撒是",
-      "hospital": "我是医院机构1",
-      "dept": "预防保健科"
+      "name": "叶建蔚",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
     },
     {
       "index": 4,
-      "name": "的撒",
-      "hospital": "我是医院机构1",
-      "dept": "预防保健科"
+      "name": "燕存子",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "呼吸科"
+    },
+    {
+      "index": 5,
+      "name": "王慧妩",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "呼吸科"
+    },
+    {
+      "index": 6,
+      "name": "王华芳",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 7,
+      "name": "王芳华",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 8,
+      "name": "孙清超",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "胸外科"
+    },
+    {
+      "index": 9,
+      "name": "孙峰",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "呼吸科"
+    },
+    {
+      "index": 10,
+      "name": "毛睿",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 11,
+      "name": "忙尼沙汗·阿布都拉",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 12,
+      "name": "玛依努尔",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 13,
+      "name": "马东",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 14,
+      "name": "刘雪梅",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "呼吸科"
+    },
+    {
+      "index": 15,
+      "name": "刘攀",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 16,
+      "name": "焦克岗",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "呼吸科"
+    },
+    {
+      "index": 17,
+      "name": "戴月梅",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "呼吸科"
+    },
+    {
+      "index": 18,
+      "name": "才层",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 19,
+      "name": "包永星",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 20,
+      "name": "巴雅",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "放疗科"
+    },
+    {
+      "index": 21,
+      "name": "艾斯克尔·吐拉洪",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 22,
+      "name": "艾力江吐尔逊",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 23,
+      "name": "邓彦超",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "胸外科"
+    },
+    {
+      "index": 24,
+      "name": "迪力达尔",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 25,
+      "name": "何元兵",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "呼吸科"
+    },
+    {
+      "index": 26,
+      "name": "胡尔西旦",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 27,
+      "name": "黄国福",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 28,
+      "name": "加孜娜",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "呼吸科"
+    },
+    {
+      "index": 29,
+      "name": "贾斌",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "呼吸科"
+    },
+    {
+      "index": 30,
+      "name": "居来提•艾尼瓦尔",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "胸外科"
+    },
+    {
+      "index": 31,
+      "name": "克丽别娜.吐尔逊",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "呼吸科"
+    },
+    {
+      "index": 32,
+      "name": "李德生",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "胸外科"
+    },
+    {
+      "index": 33,
+      "name": "李双双",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "呼吸科"
+    },
+    {
+      "index": 34,
+      "name": "刘晖",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "呼吸科"
+    },
+    {
+      "index": 35,
+      "name": "沙娅·玛哈提",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 36,
+      "name": "宿伟鹏",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 37,
+      "name": "穆合塔尔",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 38,
+      "name": "王文然",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 39,
+      "name": "王在义",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "呼吸科"
+    },
+    {
+      "index": 40,
+      "name": "西艾木西卡买尔",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "呼吸科"
+    },
+    {
+      "index": 41,
+      "name": "夏宇",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "呼吸科"
+    },
+    {
+      "index": 42,
+      "name": "肖蕾",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 43,
+      "name": "徐思成",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "呼吸科"
+    },
+    {
+      "index": 44,
+      "name": "闫芳",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "呼吸科"
+    },
+    {
+      "index": 45,
+      "name": "伊地力斯.阿吾提",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "胸外科"
+    },
+    {
+      "index": 46,
+      "name": "伊利亚尔·夏合丁",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "胸外科"
+    },
+    {
+      "index": 47,
+      "name": "张昌明",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "胸外科"
+    },
+    {
+      "index": 48,
+      "name": "张海平",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "胸外科"
+    },
+    {
+      "index": 49,
+      "name": "张华",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
+    },
+    {
+      "index": 50,
+      "name": "张瑞丽",
+      "hospital": "新疆医科大学第一附属医院",
+      "dept": "肿瘤科"
     }
   ],
-  "topic": "c草草草草",
-  "logoUrl": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_0/config/2024-12-09/43d4b3e3cd8807a1a369902598bfb7ec-bvg0sfcp.jpg",
-  "planDate": 1732464000000
+  "topic": "EGFR非经典突变晚期NSCLC一线\u000B靶向治疗策略探讨",
+  "logoUrl": "https://crm.allist.com.cn/s3file/pre_0/config/2024-11-12/1731378398169ez2o3vc0.png",
+  "planDate": 1749744000000
 }

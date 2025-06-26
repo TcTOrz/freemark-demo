@@ -1,0 +1,87 @@
+{
+  "bizName": "核销业务名称bizName",
+  "applierName": "王某某applierName",
+  "fields": [
+    {
+      "name": "标题name1",
+      "value": "标题内容value1"
+    },
+    {
+      "name": "标题name2",
+      "value": "标题内容value2"
+    },
+    {
+      "name": "标题name3",
+      "value": "标题内容value3"
+    }
+  ],
+  "createTimeStr": "2025年06月09日10:15:31",
+  "controls": [{
+    "controlTypeName": "TEXT_SINGLE",
+    "controlName": "单行",
+    "inputValue": "单行内容inputValue"
+  }, {
+    "controlTypeName": "TEXT_MULTILINE",
+    "controlName": "多行",
+    "inputValue": "多行内容inputValue"
+  }, {
+    "controlTypeName": "NUMBER",
+    "controlName": "数字",
+    "inputValue": "数字内容inputValue"
+  }, {
+    "controlTypeName": "DATE",
+    "controlName": "日期",
+    "inputValue": "日期内容2025-10-18 14:56:45"
+  }, {
+    "controlTypeName": "DATETIME",
+    "controlName": "日期+时间",
+    "inputValue": "日期+时间内容2025-10-18 14:56:45"
+  }, {
+    "controlTypeName": "SELECT_SINGLE",
+    "controlName": "单选",
+    "inputValue": "单选内容"
+  }, {
+    "controlTypeName": "SELECT_MULTIPLE",
+    "controlName": "多选",
+    "inputValue": "多选内容1,多选内容2,多选内容3"
+  }, {
+    "controlTypeName": "IMAGE",
+    "controlName": "图片",
+    "inputValue": [{"url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/1749435309961ofj0s04w.jpg"}, {"url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/1749435309961ofj0s04w.jpg"}]
+  }, {
+    "controlTypeName": "VIDEO",
+    "controlName": "视频",
+    "inputValue": [{"url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/17494353157827bfmtdk4.mp4"}]
+  }, {
+    "controlTypeName": "FILE",
+    "controlName": "附件",
+    "inputValue": [
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"},
+      { "url": "https://representative-visit-1252497236.cos.accelerate.myqcloud.com/dev_35324/audit/2025-06-09/174943532840991k2qh7g.jpg\",\"name\":\"174943532840991k2qh7g.jpg", "name": "文件名1111"}
+    ]
+  }, {
+    "controlTypeName": "POSITION",
+    "controlName": "位置",
+    "inputValue": "兴智科技园C座,32.136848,118.879019"
+  }]
+}

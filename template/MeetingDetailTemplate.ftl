@@ -678,10 +678,12 @@
                             <label>计划时间：</label>
                             <span>${planTime!''}</span>
                         </div>
-                        <div class="basicInfo-main-timeR">
-                            <label>实际时间：</label>
-                            <span>${manualTime!''}</span>
-                        </div>
+                        <#if manualTime??  && manualTime!=''>
+                            <div class="basicInfo-main-timeR">
+                                <label>实际时间：</label>
+                                <span>${manualTime!''}</span>
+                            </div>
+                        </#if>
                         <#if durationFormat?? && durationFormat!=''>
                             <div style="width: 25%;margin-right: 0;" class="basicInfo-main-timeR">
                                 <label>会议时长：</label>
@@ -892,8 +894,10 @@
                     </div>
 
                     <#if planExpense?? && (planExpense.list??)>
-                        <div class="other-info-planMoney">${planExpense.name}：${planExpense.value}
-                            元
+                        <div class="other-info-planMoney">${planExpense.name}：${planExpense.value}元
+                            <#if planExpenseUpper?? &&planExpenseUpper>
+                                <span>(${planExpense.valueUpper})</span>
+                            </#if>
                         </div>
                         <table style="border-collapse: collapse;margin-top:30px">
                             <tr>
@@ -907,7 +911,7 @@
                                         <td>
                                             ${expenseInfo.type}
                                         </td>
-                                        <td>${expenseInfo.amount}</td>
+                                        <td>${expenseInfo.amountUsFeeDesc}</td>
                                         <td>${expenseInfo.remark}</td>
                                     </tr>
                                 </#list>
@@ -918,6 +922,9 @@
                     <#if actualExpense?? && (actualExpense.list??)>
                         <div class="other-info-planMoney">${actualExpense.name}
                             ：${actualExpense.value}元
+                            <#if actualExpenseUpper ?? &&actualExpenseUpper >
+                                <span>(${actualExpense.valueUpper})</span>
+                            </#if>
                         </div>
                         <table style="border-collapse: collapse;margin-top:30px">
                             <tr>
@@ -931,7 +938,7 @@
                                         <td>
                                             ${expenseInfo.type}
                                         </td>
-                                        <td>${expenseInfo.amount}</td>
+                                        <td>${expenseInfo.amountUsFeeDesc}</td>
                                         <td>${expenseInfo.remark}</td>
                                     </tr>
                                 </#list>
@@ -1471,11 +1478,38 @@
                     </#list>
 
 
+                </div>
+            </#if>
+            <!-- 执行标准 -->
+
+
+            <!-- 会议资料  start-->
+            <#if materials?? && (materials?size> 0) >
+                <div class="ask">
+                    <div class="public-header">  <span class="public-header-tltle"><a
+                      style="pointer-events:none; color:#1ab370; font-size:30px;">・</a>会议资料：</span> </div>
+
+                    <#list materials as file>
+                        <div class="temp-text">
+                        <div class="temp-list">
+                            <div class="temp-li">
+                                <span class="temp-li-T">
+                                  ${file.fileName}
+                                </span>
+                                <span class="temp-li-B">
+                                  <a style="text-decoration: none; color: #1ab370;" href="${file.url}">点击预览</a>
+                                </span>
+                            </div>
+                        </div>
+                        </div>
+                    </#list>
 
 
                 </div>
             </#if>
-            <!-- 执行标准 -->
+            <!-- 会议资料 end -->
+
+
         </div>
     </div>
 </#escape>

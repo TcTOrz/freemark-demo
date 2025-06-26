@@ -1,0 +1,504 @@
+<!DOCTYPE html PUBLIC "-//OPENHTMLTOPDF//DOC XHTML Character Entities Only 1.0//EN" "">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>PDF</title>
+    <style>
+        @page {
+            size: 1100px 1200px;
+            -fs-max-overflow-pages: 10; /* 0 by default */
+            -fs-overflow-pages-direction: ltr; /* Also available is rtl */
+            @top-left {
+
+                /* 分页页数 */
+                /*content: "Page33" counter(page) " of " counter(pages);*/
+                background-image: url("https://crm.allist.com.cn/s3file/pre_0/config/2024-11-12/1731378398169ez2o3vc0.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: right;
+            }
+            @bottom-center {
+              content: counter(page);
+            }
+        }
+
+        .clearfix:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        @media print {
+            .page-break-before {
+                page-break-before: always;
+            }
+        }
+
+        .divider {
+            width: 950px;
+            border-bottom: 1px solid #333333;
+            border-radius: 2px 2px 2px 2px;
+            margin: 24px auto;
+        }
+
+        object[type="watermark"] {
+            position: fixed;
+            display: block;
+            width: 100%;
+            height: 100%;
+            transform: rotate(-45deg);
+            z-index: 1000;
+            left: 0;
+            top: 0;
+        }
+
+        hr {
+            margin: 24px 0;
+        }
+
+        /*table {*/
+        /*    page-break-inside: avoid;*/
+        /*    -fs-table-paginate: paginate;*/
+        /*    -fs-page-break-min-height: 1.5cm;*/
+        /*}*/
+
+        table td {
+            padding: 10px 10px 10px 14px;
+            word-wrap: break-word;
+            word-break: break-all;
+            white-space: normal;
+        }
+
+        .images {
+            margin-top: 24px;
+        }
+
+        .images img {
+            width: 100%;
+            height: 1050px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Source Han Sans', 'Emoji';
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .container {
+            width: 950px;
+            margin: 0 auto;
+            background: #fff;
+            color: #333333;
+        }
+    </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="page">
+        <p style="text-align: center;margin-top: 16px; margin-bottom: 48px;">
+            <span style="color: #333333; font-size: 32px;"><strong>会议签到表</strong></span>
+        </p>
+
+        <table style="border-collapse: collapse; table-layout: fixed; width: 100%" border="1" cellpadding="0">
+          <tbody>
+            <tr style="height: 36px" >
+              <td style="width: 20%; text-align: left; vertical-align: middle" colspan="1">
+                <span style="color: #333333; font-size: 14px"><strong>会议主题</strong></span>
+              </td>
+              <td style="width: 80%; vertical-align: middle" colspan="4">
+                <span style="color: #333333; font-size: 14px;">EGFR非经典突变晚期NSCLC一线靶向治疗策略探讨</span>
+              </td>
+            </tr>
+            <tr style="height: 36px">
+              <td style="width: 20%; text-align: left; vertical-align: middle" colspan="1">
+                <span style="color: #333333; font-size: 14px;"><strong>会议地点</strong></span>
+              </td>
+              <td style="width: 80%; vertical-align: middle" colspan="4">
+                <span style="color: #333333; font-size: 14px;">新疆医科大学第一附属医院</span>
+              </td>
+            </tr>
+            <tr style="height: 36px">
+              <td style="width: 20%; text-align: left; vertical-align: middle" colspan="1">
+                <span style="color: #333333; font-size: 14px" ><strong>会议日期</strong></span>
+              </td>
+              <td style="width: 80%; vertical-align: middle" colspan="4">
+                <span style="color: #333333; font-size: 14px;">2025-06-13</span>
+              </td>
+            </tr>
+            <tr style="height: 36px">
+              <td style="vertical-align: middle; text-align: center; background: #e3e3e3; font-size: 14px;"><strong>序号</strong></td>
+              <td style="vertical-align: middle; text-align: center; background: #e3e3e3; font-size: 14px;"><strong>姓名</strong></td>
+              <td style="vertical-align: middle; text-align: center; background: #e3e3e3; font-size: 14px;"><strong>医院</strong></td>
+              <td style="vertical-align: middle; text-align: center; background: #e3e3e3; font-size: 14px;"><strong>科室</strong></td>
+              <td style="vertical-align: middle; text-align: center; background: #e3e3e3; font-size: 14px;"><strong>签名</strong></td>
+            </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">1</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">马龙</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">胸外科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">2</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">井晓亮</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">胸外科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">3</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">叶建蔚</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">4</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">燕存子</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">呼吸科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">5</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">王慧妩</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">呼吸科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">6</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">王华芳</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">7</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">王芳华</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">8</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">孙清超</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">胸外科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">9</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">孙峰</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">呼吸科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">10</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">毛睿</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">11</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">忙尼沙汗·阿布都拉</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">12</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">玛依努尔</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">13</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">马东</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">14</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">刘雪梅</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">呼吸科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">15</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">刘攀</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">16</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">焦克岗</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">呼吸科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">17</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">戴月梅</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">呼吸科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">18</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">才层</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">19</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">包永星</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">20</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">巴雅</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">放疗科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">21</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">艾斯克尔·吐拉洪</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">22</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">艾力江吐尔逊</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">23</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">邓彦超</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">胸外科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">24</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">迪力达尔</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">25</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">何元兵</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">呼吸科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">26</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">胡尔西旦</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">27</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">黄国福</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">28</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">加孜娜</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">呼吸科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">29</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">贾斌</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">呼吸科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">30</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">居来提•艾尼瓦尔</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">胸外科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">31</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">克丽别娜.吐尔逊</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">呼吸科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">32</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">李德生</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">胸外科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">33</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">李双双</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">呼吸科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">34</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">刘晖</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">呼吸科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">35</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">沙娅·玛哈提</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">36</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">宿伟鹏</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">37</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">穆合塔尔</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">38</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">王文然</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">39</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">王在义</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">呼吸科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">40</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">西艾木西卡买尔</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">呼吸科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">41</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">夏宇</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">呼吸科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">42</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肖蕾</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">43</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">徐思成</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">呼吸科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">44</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">闫芳</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">呼吸科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">45</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">伊地力斯.阿吾提</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">胸外科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">46</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">伊利亚尔·夏合丁</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">胸外科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">47</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">张昌明</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">胸外科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">48</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">张海平</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">胸外科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">49</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">张华</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+              <tr style="height: 36px">
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">50</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">张瑞丽</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">新疆医科大学第一附属医院</td>
+                <td style="vertical-align: middle; text-align: center; font-size: 14px;">肿瘤科</td>
+                <td></td>
+              </tr>
+          </tbody>
+        </table>
+    </div>
+    <div>
+    </div>
+  </div>
+
+</body>
+<object type="watermark"></object>
+
+</html>

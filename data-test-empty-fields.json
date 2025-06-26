@@ -1,0 +1,62 @@
+{
+  "exportEmptyPdfFields": true,
+  "planCodeString": "拜访编号",
+  "planCode": "XXBF000024171",
+  "planDateInfo": "2025-05-27",
+  "planTimeInfo": "13:59 - 14:00",
+  "actualDateInfo": "2025-05-27",
+  "actualTimeInfo": "13:54 - 13:55",
+  "userId": "18115124359",
+  "jobNumber": "",
+  "userName": "张月飞",
+  "deptCode": "",
+  "deptName": "销售代表",
+  "orgName": "沙海科技有限公司",
+  "customerName": "测试客户",
+  "visitFollowerList": "",
+  "visitAddress": "郑图片医院1",
+  "locationStatus": "机构内",
+  "statusStr": "已提交",
+  "visitRecordString": "拜访记录",
+  "isVisitPlan": true,
+  "showFollower": true,
+  "enabledAttendance": true,
+  "checkInTime": "2025-05-27 13:56:56",
+  "inDistance": "50m",
+  "checkInDistance": "正常",
+  "checkInAddress": "江苏省南京市栖霞区兴智街6号",
+  "checkInAddressPictureUrl": "https://example.com/checkin-map.png",
+  "checkInPicture": "https://example.com/checkin-photo.jpg",
+  "checkInRemark": "",
+  "checkOutTime": "2025-05-27 13:57:12",
+  "outDistance": "60m",
+  "checkOutDistance": "正常",
+  "checkOutAddress": "江苏省南京市栖霞区兴智街6号",
+  "checkOutAddressPictureUrl": "https://example.com/checkout-map.png",
+  "checkOutPicture": "https://example.com/checkout-photo.jpg",
+  "checkOutRemark": "",
+  "stockInputInfo": [
+    {
+      "productName": "产品A",
+      "stockNum": "100"
+    },
+    {
+      "productName": "产品B",
+      "stockNum": ""
+    }
+  ],
+  "baseInput": [
+    {
+      "name": "客户反馈",
+      "value": "客户对产品很满意"
+    },
+    {
+      "name": "竞品信息",
+      "value": ""
+    },
+    {
+      "name": "下次拜访计划",
+      "value": "下周三继续跟进"
+    }
+  ]
+} 
